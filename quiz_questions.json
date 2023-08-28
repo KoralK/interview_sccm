@@ -1,0 +1,104 @@
+[
+    {
+        "question": "What is the main topic discussed in the video?",
+        "options": ["Setting up a Kubernetes cluster", "Best practices for securing a Kubernetes cluster", "Deploying applications in Kubernetes", "Managing user roles in Kubernetes"],
+        "answers": [1]
+    },
+    {
+        "question": "Which of the following is a misconception about cloud security?",
+        "options": ["Cloud is always insecure", "Cloud is secure by default", "Cloud requires no tools for security", "Cloud is less secure than on-premise systems"],
+        "answers": [1]
+    },
+    {
+        "question": "What is the common number one issue in Kubernetes security?",
+        "options": ["Lack of encryption", "Access from Kubernetes platform to the underlying operating system", "Insecure API endpoints", "Unpatched software"],
+        "answers": [1]
+    },
+    {
+        "question": "What is the purpose of RBAC in Kubernetes?",
+        "options": ["To encrypt data", "To manage access permissions", "To deploy applications", "To monitor cluster health"],
+        "answers": [1]
+    },
+    {
+        "question": "What is the primary function of Kubernetes?",
+        "options": ["To secure cloud environments", "To run applications inside", "To manage user roles", "To encrypt data"],
+        "answers": [1]
+    },
+    {
+        "question": "Which tool is mentioned as a Kubernetes backup and restore solution?",
+        "options": ["Istio", "Docker", "K10", "Calico"],
+        "answers": [2]
+    },
+    {
+        "question": "What is the default state of secrets in Kubernetes?",
+        "options": ["Encrypted", "Hashed", "Base64 encoded", "Compressed"],
+        "answers": [2]
+    },
+    {
+        "question": "What is the role of network policies in Kubernetes?",
+        "options": ["Encrypting data", "Defining communication rules between pods", "Scanning images for vulnerabilities", "Managing user roles"],
+        "answers": [1]
+    },
+    {
+        "question": "Which third-party tool can be used to securely store secrets in Kubernetes?",
+        "options": ["Istio", "Calico", "Vault", "K10"],
+        "answers": [2]
+    },
+    {
+        "question": "What is the advantage of using K10 for disaster recovery?",
+        "options": ["It encrypts data", "It allows for automated recovery", "It manages user roles", "It scans images for vulnerabilities"],
+        "answers": [1]
+    },
+    
+        {
+            "question": "Which of the following is NOT a component of Kubernetes?",
+            "options": ["Pod", "Service", "Docker", "Node"],
+            "answers": [2]
+        },
+        {
+            "question": "Which of the following is a common security concern when building container images?",
+            "options": ["Using code from untrusted registries", "Using too many layers", "Using a popular base image", "Using a specific programming language"],
+            "answers": [0]
+        },
+        {
+            "question": "What is the primary role of a service mesh like Istio?",
+            "options": ["Image scanning", "Defining service communication rules", "Backup and restore", "Role-based access control"],
+            "answers": [1]
+        },
+        {
+            "question": "Which Kubernetes resource is dedicated for non-human users?",
+            "options": ["Pod", "Service", "Service Account", "Deployment"],
+            "answers": [2]
+        },
+        {
+            "question": "What is the main advantage of using leaner and smaller base images for containers?",
+            "options": ["Faster deployment", "Reduced vulnerabilities", "Better compatibility", "Increased performance"],
+            "answers": [1]
+        },
+        {
+            "question": "Which of the following is NOT a recommended security practice in Kubernetes?",
+            "options": ["Using RBAC", "Storing secrets in plain text", "Using network policies", "Encrypting cluster internal communication"],
+            "answers": [1]
+        },
+        {
+            "question": "What is the primary function of etcd in Kubernetes?",
+            "options": ["Load balancing", "Image scanning", "Storing cluster configuration data", "Encrypting data"],
+            "answers": [2]
+        },
+        {
+            "question": "Why is it important to avoid running containers with root user privileges?",
+            "options": ["It consumes more resources", "It can lead to conflicts with other containers", "It can make the container more vulnerable to attacks", "It can cause version conflicts"],
+            "answers": [2]
+        },
+        {
+            "question": "Which of the following tools can be used for image scanning in Kubernetes?",
+            "options": ["Calico", "Istio", "Snyk", "K10"],
+            "answers": [2]
+        },
+        {
+            "question": "What is the primary purpose of network policies in Kubernetes?",
+            "options": ["Load balancing", "Defining communication rules between pods", "Backup and restore", "Image scanning"],
+            "answers": [1]
+        }
+    ]
+    
