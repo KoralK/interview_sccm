@@ -1,104 +1,252 @@
 [
     {
-        "question": "What is the main topic discussed in the video?",
-        "options": ["Setting up a Kubernetes cluster", "Best practices for securing a Kubernetes cluster", "Deploying applications in Kubernetes", "Managing user roles in Kubernetes"],
+        "question": "How do you backup the SCCM server?",
+        "options": [
+            "Using the Backup Site Server maintenance task",
+            "Manually copying the SCCM database",
+            "Using third-party backup tools",
+            "By exporting SCCM settings to a file"
+        ],
+        "answers": [0]
+    },
+    {
+        "question": "How do you distribute a package in SCCM?",
+        "options": [
+            "By creating a distribution point and assigning it to the package",
+            "By sending the package directly to client machines",
+            "By uploading the package to a cloud storage",
+            "By creating a task sequence and adding the package to it"
+        ],
+        "answers": [0]
+    },
+    {
+        "question": "What is the purpose of the Cloud Management Dashboard in SCCM?",
+        "options": [
+            "To manage cloud-based applications",
+            "To provide a centralized view of the Cloud Management Gateway usage",
+            "To monitor cloud storage usage",
+            "To deploy cloud services to client machines"
+        ],
         "answers": [1]
     },
     {
-        "question": "Which of the following is a misconception about cloud security?",
-        "options": ["Cloud is always insecure", "Cloud is secure by default", "Cloud requires no tools for security", "Cloud is less secure than on-premise systems"],
+        "question": "How do you make an application deployment optional instead of mandatory?",
+        "options": [
+            "By setting the deployment type to 'Mandatory'",
+            "By configuring the deployment reason as 'Available'",
+            "By removing the deployment schedule",
+            "By setting the deployment priority to 'Low'"
+        ],
         "answers": [1]
     },
     {
-        "question": "What is the common number one issue in Kubernetes security?",
-        "options": ["Lack of encryption", "Access from Kubernetes platform to the underlying operating system", "Insecure API endpoints", "Unpatched software"],
-        "answers": [1]
+        "question": "What is the role of the State Migration Point in SCCM?",
+        "options": [
+            "To manage stateful migrations of user data during OS deployments",
+            "To monitor the health status of client machines",
+            "To deploy software updates to client machines",
+            "To replicate data between primary and secondary sites"
+        ],
+        "answers": [0]
     },
     {
-        "question": "What is the purpose of RBAC in Kubernetes?",
-        "options": ["To encrypt data", "To manage access permissions", "To deploy applications", "To monitor cluster health"],
-        "answers": [1]
-    },
-    {
-        "question": "What is the primary function of Kubernetes?",
-        "options": ["To secure cloud environments", "To run applications inside", "To manage user roles", "To encrypt data"],
-        "answers": [1]
-    },
-    {
-        "question": "Which tool is mentioned as a Kubernetes backup and restore solution?",
-        "options": ["Istio", "Docker", "K10", "Calico"],
+        "question": "What is the purpose of the Enhanced HTTP Site System in SCCM?",
+        "options": [
+            "To encrypt data transferred between client and server",
+            "To enhance the speed of data transfer",
+            "To allow clients to communicate with site systems without the need for PKI certificates",
+            "To compress data for faster transfer"
+        ],
         "answers": [2]
     },
-    {
-        "question": "What is the default state of secrets in Kubernetes?",
-        "options": ["Encrypted", "Hashed", "Base64 encoded", "Compressed"],
-        "answers": [2]
-    },
-    {
-        "question": "What is the role of network policies in Kubernetes?",
-        "options": ["Encrypting data", "Defining communication rules between pods", "Scanning images for vulnerabilities", "Managing user roles"],
-        "answers": [1]
-    },
-    {
-        "question": "Which third-party tool can be used to securely store secrets in Kubernetes?",
-        "options": ["Istio", "Calico", "Vault", "K10"],
-        "answers": [2]
-    },
-    {
-        "question": "What is the advantage of using K10 for disaster recovery?",
-        "options": ["It encrypts data", "It allows for automated recovery", "It manages user roles", "It scans images for vulnerabilities"],
-        "answers": [1]
-    },
+
     
         {
-            "question": "Which of the following is NOT a component of Kubernetes?",
-            "options": ["Pod", "Service", "Docker", "Node"],
-            "answers": [2]
-        },
-        {
-            "question": "Which of the following is a common security concern when building container images?",
-            "options": ["Using code from untrusted registries", "Using too many layers", "Using a popular base image", "Using a specific programming language"],
+            "question": "Which SCCM feature allows you to monitor and collect software usage data from Configuration Manager clients?",
+            "options": [
+                "Software Metering",
+                "Software Distribution",
+                "Software Updates",
+                "Software Inventory"
+            ],
             "answers": [0]
         },
         {
-            "question": "What is the primary role of a service mesh like Istio?",
-            "options": ["Image scanning", "Defining service communication rules", "Backup and restore", "Role-based access control"],
+            "question": "Which of the following is NOT a type of boundary in SCCM?",
+            "options": [
+                "IP Subnet",
+                "IPv6 Prefix",
+                "Active Directory Forest",
+                "MAC Address Range"
+            ],
+            "answers": [3]
+        },
+        {
+            "question": "What does WOL stand for in the context of SCCM?",
+            "options": [
+                "Windows Online Learning",
+                "Wake On LAN",
+                "Windows Operation Layer",
+                "Web Operation Layer"
+            ],
             "answers": [1]
         },
         {
-            "question": "Which Kubernetes resource is dedicated for non-human users?",
-            "options": ["Pod", "Service", "Service Account", "Deployment"],
-            "answers": [2]
+            "question": "Which SCCM feature is used to control the network access until a client system meets the security requirements?",
+            "options": [
+                "Network Access Protection",
+                "Remote Control",
+                "Endpoint Protection",
+                "Boundary Groups"
+            ],
+            "answers": [0]
         },
         {
-            "question": "What is the main advantage of using leaner and smaller base images for containers?",
-            "options": ["Faster deployment", "Reduced vulnerabilities", "Better compatibility", "Increased performance"],
+            "question": "In SCCM, what is the primary purpose of the 'Fallback Status Point'?",
+            "options": [
+                "To provide backup content to clients",
+                "To monitor the health of client installations",
+                "To redirect clients to another distribution point",
+                "To store client logs and events for troubleshooting"
+            ],
             "answers": [1]
         },
-        {
-            "question": "Which of the following is NOT a recommended security practice in Kubernetes?",
-            "options": ["Using RBAC", "Storing secrets in plain text", "Using network policies", "Encrypting cluster internal communication"],
-            "answers": [1]
-        },
-        {
-            "question": "What is the primary function of etcd in Kubernetes?",
-            "options": ["Load balancing", "Image scanning", "Storing cluster configuration data", "Encrypting data"],
-            "answers": [2]
-        },
-        {
-            "question": "Why is it important to avoid running containers with root user privileges?",
-            "options": ["It consumes more resources", "It can lead to conflicts with other containers", "It can make the container more vulnerable to attacks", "It can cause version conflicts"],
-            "answers": [2]
-        },
-        {
-            "question": "Which of the following tools can be used for image scanning in Kubernetes?",
-            "options": ["Calico", "Istio", "Snyk", "K10"],
-            "answers": [2]
-        },
-        {
-            "question": "What is the primary purpose of network policies in Kubernetes?",
-            "options": ["Load balancing", "Defining communication rules between pods", "Backup and restore", "Image scanning"],
-            "answers": [1]
-        }
-    ]
+        
+            {
+                "question": "Which feature in SCCM allows for the remote control of client computers?",
+                "options": ["Remote Tools", "Software Distribution", "Endpoint Protection", "Software Inventory"],
+                "answers": [0]
+            },
+            {
+                "question": "What is the primary function of the 'Distribution Point' in SCCM?",
+                "options": ["Collecting software inventory", "Storing client installation files", "Storing content for client deployment", "Monitoring client health"],
+                "answers": [2]
+            },
+            {
+                "question": "Which SCCM feature provides patch management?",
+                "options": ["Software Updates", "Software Distribution", "Endpoint Protection", "Remote Tools"],
+                "answers": [0]
+            },
+            {
+                "question": "What is the purpose of the 'Discovery Methods' in SCCM?",
+                "options": ["Deploying software", "Finding network resources", "Backing up the SCCM server", "Monitoring client health"],
+                "answers": [1]
+            },
+            {
+                "question": "Which of the following is NOT a deployment type in SCCM?",
+                "options": ["Package", "Application", "Software Update", "Boundary Group"],
+                "answers": [3]
+            },
+            {
+                "question": "Which SCCM feature allows you to set up and manage user and device collections?",
+                "options": ["Query Rules", "Endpoint Protection", "Software Metering", "Remote Tools"],
+                "answers": [0]
+            },
+            {
+                "question": "What is the primary use of 'Task Sequences' in SCCM?",
+                "options": ["Software patching", "Remote control of devices", "Operating system deployment", "Software metering"],
+                "answers": [2]
+            },
+            {
+                "question": "Which of the following is NOT a role in SCCM?",
+                "options": ["Management Point", "Distribution Point", "Fallback Status Point", "Discovery Point"],
+                "answers": [3]
+            },
+            {
+                "question": "Which SCCM feature provides a way to monitor and control the use of software?",
+                "options": ["Software Metering", "Software Inventory", "Software Distribution", "Software Updates"],
+                "answers": [0]
+            },
+            {
+                "question": "What is the purpose of the 'Asset Intelligence' feature in SCCM?",
+                "options": ["Deploying software", "Collecting software usage data", "Remote control of devices", "Monitoring and reporting on software in the organization"],
+                "answers": [3]
+            },
+            {
+                "question": "Which of the following is a type of boundary in SCCM?",
+                "options": ["MAC Address Range", "Operating System Range", "Software Version Range", "Device Type Range"],
+                "answers": [0]
+            },
+            {
+                "question": "Which SCCM feature is used to manage BIOS and firmware settings on client computers?",
+                "options": ["Endpoint Protection", "Remote Tools", "Software Inventory", "Configuration Baselines"],
+                "answers": [3]
+            },
+            {
+                "question": "What does OSD stand for in the context of SCCM?",
+                "options": ["Operational System Deployment", "Operating System Distribution", "Operating System Deployment", "Operational Software Distribution"],
+                "answers": [2]
+            },
+            {
+                "question": "Which SCCM feature is used to control the network access until a client system meets the security requirements?",
+                "options": ["Network Access Protection", "Remote Control", "Endpoint Protection", "Boundary Groups"],
+                "answers": [0]
+            },
+            {
+                "question": "In SCCM, what is the primary purpose of the 'Fallback Status Point'?",
+                "options": ["To provide backup content to clients", "To monitor the health of client installations", "To redirect clients to another distribution point", "To store client logs and events for troubleshooting"],
+                "answers": [1]
+            },
+            {
+                "question": "Which of the following is a component of SCCM that provides a set of tools to monitor and troubleshoot SCCM sites and clients?",
+                "options": ["Configuration Manager Console", "System Center Operations Manager", "System Center Service Manager", "Configuration Manager Toolkit"],
+                "answers": [3]
+            },
+            {
+                "question": "What is the primary function of the 'Software Update Point' in SCCM?",
+                "options": ["Deploying applications", "Remote control of devices", "Synchronizing and deploying software updates", "Collecting software inventory"],
+                "answers": [2]
+            },
+            {
+                "question": "Which SCCM feature allows administrators to track and remediate computers that violate security policies?",
+                "options": ["Endpoint Protection", "Software Metering", "Software Inventory", "Remote Tools"],
+                "answers": [0]
+            },
+            {
+                "question": "Which of the following is a method to deploy the SCCM client to computers?",
+                "options": ["Client Push Installation", "Software Update Installation", "Remote Control Installation", "Software Metering Installation"],
+                "answers": [0]
+            },
+            {
+                "question": "Which SCCM feature provides a way to assess the compliance of clients with regard to a set of configuration baselines?",
+                "options": ["Desired Configuration Management", "Software Distribution", "Software Updates", "Remote Tools"],
+                "answers": [0]
+            },
+            {
+                "question": "Which of the following is NOT a type of SCCM site?",
+                "options": ["Primary Site", "Secondary Site", "Tertiary Site", "Central Administration Site"],
+                "answers": [2]
+            },
+            {
+                "question": "In SCCM, what is the purpose of 'Role-Based Administration'?",
+                "options": ["Deploying software", "Assigning client settings", "Restricting access to resources based on roles", "Monitoring client health"],
+                "answers": [2]
+            },
+            {
+                "question": "Which SCCM feature allows you to manage mobile devices?",
+                "options": ["Mobile Device Management", "Software Distribution", "Endpoint Protection", "Remote Tools"],
+                "answers": [0]
+            },
+            {
+                "question": "What is the primary use of 'Boot Images' in SCCM?",
+                "options": ["Software patching", "Remote control of devices", "Operating system deployment", "Software metering"],
+                "answers": [2]
+            },
+            {
+                "question": "Which of the following is a type of report in SCCM?",
+                "options": ["Software Distribution Report", "Software Metering Report", "Endpoint Protection Report", "All of the above"],
+                "answers": [3]
+            },
+            {
+                "question": "Which SCCM feature provides a way to monitor the power consumption of computers?",
+                "options": ["Power Management", "Software Metering", "Software Inventory", "Remote Tools"],
+                "answers": [0]
+            },
+            {
+                "question": "What is the primary function of the 'Reporting Services Point' in SCCM?",
+                "options": ["Deploying applications", "Creating and managing reports", "Synchronizing and deploying software updates", "Collecting software inventory"],
+                "answers": [1]
+            }
+        ]        
+
     
